@@ -1,0 +1,39 @@
+{
+  "name": "berbobot",
+  "version": "1.0.0",
+  "description": "Typescript WhatsApp Bot",
+  "homepage": "https://github.com/Nurutomo/berbobot",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc",
+    "build": "tsc"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot"
+  ],
+  "author": {
+    "name": "Nurutomo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nurutomo/berbobot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nurutomo/berbobot/issues"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@nurutomo/mahbod": "github:Nurutomo/mahbod",
+    "got": "^12.0.4",
+    "node-webpmux": "^3.1.1",
+    "yaml": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/got": "^9.6.12",
+    "typescript": "^4.6.4"
+  }
+}
