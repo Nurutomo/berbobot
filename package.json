@@ -28,7 +28,7 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@nurutomo/mahbod": "github:Nurutomo/mahbod",
-    "got": "^12.0.4",
+    "got": "^11.8.3",
     "node-webpmux": "^3.1.1",
     "yaml": "^2.0.1"
   },
