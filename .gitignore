@@ -3,4 +3,5 @@ node_modules
 database
 sessions
 lib
+!src/lib
 tmp
